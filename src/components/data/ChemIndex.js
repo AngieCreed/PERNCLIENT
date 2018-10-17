@@ -4,6 +4,7 @@ import ChemCreate from './ChemCreate'
 import ChemTable from './ChemTable'
 import ChemEdit from './ChemEdit'
 import './chem.css'
+import APIURL from './helpers/environment';
 
 class ChemIndex extends Component{
 constructor(props) {
@@ -20,7 +21,7 @@ componentWillMount() {
 }
 
 fetchChem = () => {
-    fetch('http://localhost:3003/chem', {
+    fetch(`${APIURL}/chem`, {
         method: 'GET',
         headers: new Headers({
             'Content-Type': 'application/json',
@@ -34,7 +35,7 @@ fetchChem = () => {
 }
 
 chemDelete = (event) => {
-    fetch(`http://localhost:3003/chem/${event.target.id}`, {
+    fetch(`${APIURL}/chem/${event.target.id}`, {
         method: 'DELETE',
         body: JSON.stringify({chem: {id:event.target.id}}),
         headers: new Headers({
@@ -45,7 +46,7 @@ chemDelete = (event) => {
 }
 
 chemUpdate = (event, chem) => {
-    fetch(`http://localhost:3003/chem/${chem.id}`, {
+    fetch(`${APIURL}/chem/${chem.id}`, {
         method: 'PUT',
         body: JSON.stringify({ chem: chem }),
         headers: new Headers({

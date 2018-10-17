@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Container, Row, Col} from 'reactstrap'
 import SurveyCreate from './SurveyCreate'
+import APIURL from './helpers/environment';
 
 
 class SurveyIndex extends Component {
@@ -16,7 +17,7 @@ class SurveyIndex extends Component {
       }
         
       fetchSurvey = () => {
-          fetch('http://localhost:3003/survey', {
+          fetch(`${APIURL}/survey`, {
               method: 'GET',
               headers: new Headers({
                   'Content-Type': 'application/json',

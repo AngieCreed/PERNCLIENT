@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Button, Form, FormGroup, Label, Input} from 'reactstrap'
+import APIURL from './helpers/environment';
 
 class SurveyCreate extends Component {
     constructor(props) {
@@ -22,7 +23,7 @@ class SurveyCreate extends Component {
 
     handleSubmit = (event) => {
         event.preventDefault();
-        fetch(`http://localhost:3003/survey/complete` , {
+        fetch(`${APIURL}/survey/complete` , {
             method: 'POST',
             body: JSON.stringify({ survey: this.state}),
             headers: new Headers({

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Form, FormGroup, Label, Input, Button } from 'reactstrap';
+import APIURL from './helpers/environment';
 
 class Signup extends Component {
     constructor(props) {
@@ -21,7 +22,7 @@ class Signup extends Component {
     }
 
     handleSubmit = (event) => {
-            fetch('http://localhost:3003/user/createuser', {
+            fetch(`${APIURL}/user/createuser`, {
             method: "POST", 
             body: JSON.stringify({user: this.state}),
             headers: new Headers({

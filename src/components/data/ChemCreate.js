@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Button, Form, FormGroup, Label, Input} from 'reactstrap'
+import APIURL from './helpers/environment';
 
 class ChemCreate extends Component {
     constructor(props) {
@@ -22,7 +23,7 @@ class ChemCreate extends Component {
 
     handleSubmit = (event) => {
         event.preventDefault();
-        fetch(`http://localhost:3003/chem/add`, {
+        fetch(`${APIURL}/chem/add`, {
             method: 'POST',
             body: JSON.stringify({ chem: this.state}),
             headers: new Headers({
