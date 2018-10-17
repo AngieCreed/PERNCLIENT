@@ -1,0 +1,39 @@
+
+.auth-container { 
+    margin-top: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-radius: 0.5em;
+    box-shadow: 2px 4px 20px #f0f0f0;
+    background: rgba(253, 132, 19, 0.815);
+    font-family: nunito;
+}
+
+
+.login-col {
+    background-color: #0E3069;
+    color: rgba(255, 255, 255, 0.877);
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-radius: .4em;
+    margin-left: 2em;
+    margin-right: 0;
+    align-content: center;
+    opacity: .9;
+        
+}
+
+.signup-col {
+    background-color: #9E4607;
+    color: white;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-radius: .4em;
+    margin-left: 0;
+    margin-right: 2em;
+    align-content: center;
+    opacity: .9;
+    
+}
+
+ 

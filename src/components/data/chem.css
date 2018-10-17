@@ -1,0 +1,56 @@
+.chemindex {
+    /* background-color: #0E3069; */
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: .4em;
+    margin-top: 4em;
+    box-shadow: 2px 4px 20px #f0f0f0;
+    background: rgba(14, 48, 105, 0.8);
+    font-family: nunito;
+   
+}
+
+.chemtable {
+    /* background-color: rgb(); */
+    opacity: .9;
+    margin-top: 1em;
+    padding-top: .5em;
+    color: white;
+    border-radius: .4em;
+
+    }
+
+    .log-button.btn.btn-secondary {
+        color:#0E3069;
+        background-color:#9E4607;
+        background-image: linear-gradient(to bottom left, #f83600, #f9d423);
+        border-radius: .4em;
+        font-family:  'Merienda One', cursive;
+    }
+
+    .modal-font {
+        font-family: nunito;
+        
+    }
+
+
+ /* .navbar1{
+    background-color: #0E3069;
+    }  */
+
+/* .navbar-brand {
+    color: white;
+} */
+
+
+
+
+
+
+
+
+
+
+

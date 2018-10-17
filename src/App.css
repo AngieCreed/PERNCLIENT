@@ -1,0 +1,144 @@
+
+/* body{
+  background-color: #4E6EA5 !important;
+  } */
+
+
+
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.footer {
+  /* list-style-type: none; */
+  margin: auto;
+  padding: 0.7em 50vw;
+  overflow: hidden;
+  background-color: #0E3069;
+  bottom: 0;
+  position: fixed;
+  font-family: nunito;
+  color: #9E4607;
+  text-align: center;
+ }
+ 
+ /* .foot-li {
+  margin: auto;
+  color: #9E4607;
+  font-family: nunito;
+  
+ } */
+
+
+ .jumbotron.jumbotron-fluid.newjumbo {
+   padding: 2em;
+   margin: 0;
+   text-align: center;
+   margin-top: 0;
+   background-color:#9E4607;
+   background-image: linear-gradient(to bottom left, #f83600, #f9d423);
+   font-family:  'Merienda One', cursive;
+   color: rgb(79, 53, 224);
+   border-bottom: solid rgb(79, 53, 224);
+   border-bottom-style: outset;
+   border-bottom-width: 10px;
+   
+   
+   
+ }
+
+ .jumbotron.jumbotron-fluid.newjumbo p {
+   margin: 0;
+   padding: 0;
+ }
+
+ .chem-bg{
+  /* background-color: #4E6EA5; */
+  padding-top: 3em;
+  padding-bottom: 1em;
+  height: 100vh;
+  background-image: url('./components/assets/poolwater.jpg');
+  background-size: cover;
+ }
+ 
+ .chemindex.container {
+   margin-top: 0;
+   
+ }
+
+ .navbar {
+   background-color: #0E3069;
+   margin: 0;
+   font-family: nunito;
+ }
+
+ .surv-bg {
+  padding-top: 3em;
+  padding-bottom: 1em;
+  height: 100vh;
+  background-image: url('./components/assets/poolwater.jpg');
+  background-size: cover;
+  font-family: nunito;
+  
+
+  
+ }
+
+ .survindex {
+   text-align: center;
+   /* background: rgba(0, 0, 0, 0.3); */
+ }
+
+ .logout-button.btn.btn-secondary {
+  color:#0E3069;
+  background-color:#9E4607;
+  background-image: linear-gradient(to bottom left, #f83600, #f9d423);
+  border-radius: .4em;
+  font-family:  'Merienda One', cursive;
+}
+
+
+/* .no-top {
+  border-top-style: none;
+}
+  */
+
+
+
+ 
+
+
+ 
+
+
+ 
