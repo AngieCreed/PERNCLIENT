@@ -4,7 +4,7 @@ import ChemCreate from './ChemCreate'
 import ChemTable from './ChemTable'
 import ChemEdit from './ChemEdit'
 import './chem.css'
-import APIURL from './helpers/environment';
+import APIURL from '../../helpers/environment';
 
 class ChemIndex extends Component{
 constructor(props) {

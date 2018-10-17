@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Container, Row, Col} from 'reactstrap'
 import SurveyCreate from './SurveyCreate'
-import APIURL from './helpers/environment';
+import APIURL from '../../helpers/environment';
 
 
 class SurveyIndex extends Component {
