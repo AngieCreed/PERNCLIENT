@@ -16,12 +16,12 @@ constructor(props) {
     }
 }
 
-componentWillMount() {
+componentDidMount() {
     this.fetchChem()
 }
 
 fetchChem = () => {
-    fetch(`${APIURL}/chem`, {
+    fetch(`${APIURL}/chem/`, {
         method: 'GET',
         headers: new Headers({
             'Content-Type': 'application/json',

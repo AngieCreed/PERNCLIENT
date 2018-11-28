@@ -10,7 +10,9 @@ class ChemEdit extends React.Component {
             phLevel: '',
             taLevel: '',
             cyaLevel: '',
-            chLevel: ''
+            chLevel: '',
+            owner: '',
+           
         }
     }
 
@@ -21,7 +23,8 @@ class ChemEdit extends React.Component {
             phLevel: this.props.chem.phLevel,
             taLevel: this.props.chem.taLevel,
             cyaLevel: this.props.chem.cyaLevel,
-            chLevel: this.props.chem.chLevel
+            chLevel: this.props.chem.chLevel,
+            owner: this.props.chem.owner
         })
     }
 

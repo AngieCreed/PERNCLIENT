@@ -11,7 +11,8 @@ class ChemCreate extends Component {
             phLevel: '',
             taLevel: '',
             cyaLevel: '',
-            chLevel: ''
+            chLevel: '',
+            owner: '',
         }
     }
 
@@ -38,7 +39,8 @@ class ChemCreate extends Component {
             phLevel: '',
             taLevel: '',
             cyaLevel: '',
-            chLevel: ''
+            chLevel: '',
+            owner: '',
             })
         })
     }
